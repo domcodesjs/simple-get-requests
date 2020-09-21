@@ -8,13 +8,19 @@
   <body>
     <header>
       <h1>Simple Get Requests</h1>
-      <form>
-        <input type="number" min="1" max="50" required />
+      <form class="dog-images-form">
+        <input type="number" class="img-input" min="1" max="50" required />
         <button type="submit">Get Dog Images</button>
+      </form>
+
+      <form class="dog-breed-form">
+        <input type="text" class="breed-input" required />
+        <button type="submit">Get Dog Breed</button>
       </form>
     </header>
 
     <main></main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
